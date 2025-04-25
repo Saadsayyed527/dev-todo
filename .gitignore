@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Log files
+npm-debug.log
+yarn-error.log
+
+# .env file (contains sensitive environment variables)
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output directory (if you build the frontend using React)
+build/
+
+# Coverage directory for code coverage tools
+coverage/
