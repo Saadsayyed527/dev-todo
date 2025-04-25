@@ -3,7 +3,8 @@ import axios from 'axios';
 import TodoItem from './components/TodoItems';
 import TodoForm from './components/TodoForm';
 
-const API_URL = 'http://localhost:5000/api/todos'; // Replace with EC2 IP in production
+// const API_URL = 'http://localhost:5000/api/todos'; // Replace with EC2 IP in production
+const API_URL = process.env.VITE_API_URL || 'http://3.108.59.158:5000';
 
 function App() {
   const [todos, setTodos] = useState([]);
